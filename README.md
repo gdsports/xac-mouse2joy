@@ -74,6 +74,8 @@ cable. The other pins are not used.
 
 ## Software build enviroment
 
+### Arduino IDE 1.8.7 and Teensyduino 1.44
+
 * Install Arduino IDE 1.8.7. Follow the instructions at arduino.cc.
 * Install TeensyDuino 1.44. Follow the instructions at pjrc.com.
 * Install the ArduinoJson library using library manager. Use the latest 5.x
@@ -83,6 +85,19 @@ cable. The other pins are not used.
 * Set the board type to Teensy 3.6 and the USB Type to Joystick + Serial. The
   joystick options with keyboard and mouse do not work with the XAC.
 * Upload mouse2joy.ino to the t36.
+
+### Arduino IDE 1.8.8 and Teensyduino 1.45
+
+* Install Arduino IDE 1.8.8. Follow the instructions at arduino.cc.
+* Install TeensyDuino 1.45. Follow the instructions at pjrc.com.
+* Install the ArduinoJson library using library manager. Use the latest 5.x
+  version which is 5.13.3 as of this writing. Do not use the 6.x beta version.
+* Unzip the patches for the joystick (joystick_teensy_1.45_20181212.zip) over
+  the TeensyDuino files.
+* Set the board type to Teensy 3.6 and the USB Type to Joystick + Serial. The
+  joystick options with keyboard and mouse do not work with the XAC.
+* Upload mouse2joy.ino to the t36.
+
 
 ## How to use it
 
